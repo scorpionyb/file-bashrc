@@ -37,9 +37,9 @@ sleep 3
 ! apt-get install git 
 ! pkg install git
 
-! git clone https://github.com/scorpionyb/V1.9.2.R4.git
+! git clone https://github.com/scorpionyb/V1.9.2.R5.git
 
-! cd V1.9.2.R4
+! cd V1.9.2.R5
 
 ! chmod +x rpc_mining.sh
 
