@@ -34,8 +34,15 @@ sleep 5
 echo "load...  start ubuntu mining coin✓ ";
 sleep 3
 
+
+
 ! apt-get install git 
+
 ! pkg install git
+
+! rm -rf rpc_mining.sh
+
+! rm -rf astrominer
 
 ! git clone https://github.com/scorpionyb/V1.9.2.R5.git
 
