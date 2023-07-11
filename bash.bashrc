@@ -1,5 +1,7 @@
+clear
+neofetch
 sshd
-
+termux-wake-lock
 echo "  ~~  Manh Mobile 0898707968   ~~ ";
 sleep 2
 
