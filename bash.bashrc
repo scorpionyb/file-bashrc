@@ -1,13 +1,12 @@
 clear
 
-echo "  ~~  Manh Mobile 0898707968   ~~ ";
-
-
+echo "  ~~  Manh Mobile 0898707968   ~~ ":
+sleep 5
 neofetch
 sshd
 termux-wake-lock
 echo "  ~~  Manh Mobile 0898707968   ~~ ";
-sleep 2
+sleep 6
 
 echo "( ~~tool auto start mining ~~ )";
 sleep 3
