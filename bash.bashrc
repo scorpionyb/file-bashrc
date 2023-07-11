@@ -37,7 +37,7 @@ echo "           █░░█ ";
 echo "           █░░█ ";
 echo "            ▀*₫ ";
 sleep 5
-echo "load...  start ubuntu mining coin✓ ";
+echo "load...  start dero mining coin✓ ";
 sleep 3
 
 
