@@ -1,3 +1,4 @@
+clear
 sshd
 termux-wake-lock
 echo "  ~~  Manh Mobile 0898707968   ~~ ";
