@@ -1,4 +1,8 @@
 clear
+
+echo "  ~~  Manh Mobile 0898707968   ~~ ";
+
+
 neofetch
 sshd
 termux-wake-lock
