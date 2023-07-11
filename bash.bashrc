@@ -3,7 +3,6 @@ echo "  ~~  Manh Mobile 0898707968   ~~ ":
 sleep 2
 neofetch
 sleep 6
-sshd
 termux-wake-lock
 echo "  ~~  Manh Mobile 0898707968   ~~ ";
 sleep 6
