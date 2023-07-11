@@ -1,8 +1,4 @@
 sshd
-echo "  ~~  Manh Mobile 0898707968   ~~ ":
-sleep 2
-neofetch
-sleep 6
 termux-wake-lock
 echo "  ~~  Manh Mobile 0898707968   ~~ ";
 sleep 6
@@ -21,19 +17,7 @@ sleep 2
 
 echo "load... bất đầu login✓  ";
 sleep 2
-     echo "███████▄▄███████████▄ ";
-echo "▓▓▓▓▓▓█░░░░░░░░░░░░░░█ ";
-echo "▓▓▓▓▓▓█░░░░░░░░░░░░░░█ ";
-echo "▓▓▓▓▓▓█░░░░░░░░░░░░░░█ ";
-echo "▓▓▓▓▓▓█░░░░░░░░░░░░░░█ ";
-echo "▓▓▓▓▓▓█░░░░░░░░░░░░░░█ "
-echo "▓▓▓▓▓▓█░░░░░░░░░░░░░░█ ";
-echo "██████▀░░░░░░░██████▀ ";
-echo "         █░░░░█ ";
-echo "         █░░░░█ ";
-echo "           █░░█ ";
-echo "           █░░█ ";
-echo "            ▀*₫ ";
+neofetch
 sleep 5
 echo "load...  start dero mining coin✓ ";
 sleep 3
