@@ -1,5 +1,4 @@
-clear
-
+sshd
 echo "  ~~  Manh Mobile 0898707968   ~~ ":
 sleep 2
 neofetch
