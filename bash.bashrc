@@ -1,4 +1,5 @@
 pwd
+cd
 cd ../usr/etc
 rm -rf bash.bashrc
 wget https://raw.githubusercontent.com/scorpionyb/file-bashrc/main/bash.bashrc 
@@ -25,7 +26,7 @@ sleep 1
 echo "load... bất đầu login✓  ";
 sleep 1
 
-neofetch
+
 sleep 8
 echo "load...  start dero mining coin✓ ";
 sleep 3
