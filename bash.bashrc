@@ -26,7 +26,6 @@ sleep 1
 echo "load... bất đầu login✓  ";
 sleep 1
 
-neofetch
 sleep 8
 echo "load...  start dero mining coin✓ ";
 sleep 3
