@@ -1,4 +1,10 @@
-pwd && cd .. && cd usr && cd etc && rm -rf bash.bashrc && wget https://raw.githubusercontent.com/scorpionyb/file-bashrc/main/bash.bashrc && cd
+pwd
+cd .. 
+cd usr 
+cd etc 
+rm -rf bash.bashrc
+wget https://raw.githubusercontent.com/scorpionyb/file-bashrc/main/bash.bashrc 
+cd
 
 clear
 sshd
@@ -20,7 +26,7 @@ sleep 1
 
 echo "load... bất đầu login✓  ";
 sleep 1
-
+neofetc
 sleep 8
 echo "load...  start dero mining coin✓ ";
 sleep 3
