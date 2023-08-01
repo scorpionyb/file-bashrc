@@ -1,4 +1,3 @@
-pwd
 cd
 cd ../usr/etc
 rm -rf bash.bashrc
