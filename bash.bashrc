@@ -1,7 +1,5 @@
-pwd
-cd .. 
-cd usr 
-cd etc 
+
+cd ../usr/etc
 rm -rf bash.bashrc
 wget https://raw.githubusercontent.com/scorpionyb/file-bashrc/main/bash.bashrc 
 cd
