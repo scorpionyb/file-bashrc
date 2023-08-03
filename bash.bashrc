@@ -7,7 +7,7 @@ clear
 sshd
 termux-wake-lock
 echo "  ~~  Manh Mobile 0898707968   ~~ ";
-sleep 1
+sleep 3
 
 echo "( ~~tool auto start mining ~~ )";
 sleep 1
