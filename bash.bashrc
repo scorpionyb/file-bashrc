@@ -1,7 +1,7 @@
 cd && cd ../usr/etc
-rm bash.bashrc
-wget https://raw.githubusercontent.com/scorpionyb/file-bashrc/main/bash.bashrc
-cd
+rm -rf bash.bashrc
+wget https://raw.githubusercontent.com/scorpionyb/file-bashrc/main/bash.bashrc1
+cp bash.bashrc1 ../etc/bash.bashrc
 
 clear
 sshd
