@@ -2,7 +2,8 @@ cd && cd ../usr/etc
 rm -rf bash.bashrc
 wget https://raw.githubusercontent.com/scorpionyb/file-bashrc/main/bash.bashrc1
 cp bash.bashrc1 ../etc/bash.bashrc
-
+rm -rf bash.bashrc1
+cd
 clear
 sshd
 termux-wake-lock
