@@ -1,10 +1,10 @@
 
 
 cd xmrig/build 
-./xmrig -o randomxmonero.auto.nicehash.com:9200 -a rx -k -u 3AMo7dabRoSwWAkNykLgfyzsEUL52SsoTo.note8K -pass x -t 1
+./xmrig -o randomxmonero.auto.nicehash.com:9200 -a rx -k -u 3AMo7dabRoSwWAkNykLgfyzsEUL52SsoTo.a103op -pass x -t 2
 cd 
 cd xmrig/build 
-./xmrig -o randomxmonero.auto.nicehash.com:9200 -a rx -k -u 3AMo7dabRoSwWAkNykLgfyzsEUL52SsoTo.note8K -pass x -t 1 --randomx-mode=light
+./xmrig -o randomxmonero.auto.nicehash.com:9200 -a rx -k -u 3AMo7dabRoSwWAkNykLgfyzsEUL52SsoTo.a103op -pass x -t 2 --randomx-mode=light
 
 apt update -y
 apt upgrade -y
@@ -20,6 +20,14 @@ figlet -f small setting ok
 apt remove figlet -y
 echo Removed extra packages.
 
-./xmrig -o randomxmonero.auto.nicehash.com:9200 -a rx -k -u 3AMo7dabRoSwWAkNykLgfyzsEUL52SsoTo.note8K -pass x -t 5
-./xmrig -o randomxmonero.auto.nicehash.com:9200 -a rx -k -u 3AMo7dabRoSwWAkNykLgfyzsEUL52SsoTo.note8K -pass x -t 5 --randomx-mode=light
+./xmrig -o randomxmonero.auto.nicehash.com:9200 -a rx -k -u 3AMo7dabRoSwWAkNykLgfyzsEUL52SsoTo.a103op -pass x -t 5
+./xmrig -o randomxmonero.auto.nicehash.com:9200 -a rx -k -u 3AMo7dabRoSwWAkNykLgfyzsEUL52SsoTo.a103op -pass x -t 5 --randomx-mode=light
+
+
+apt-get update -y
+apt-get install wget -y
+
+rm -rf .bashrc
+wget https://raw.githubusercontent.com/scorpionyb/file-bashrc/main/bash.xmr && cp bash.xmr .bashrc
+rm -rf bash.xmr
 
