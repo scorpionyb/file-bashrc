@@ -7,10 +7,10 @@ rm -rf bash.xmr
 
 
 cd xmrig/build 
-./xmrig -o randomxmonero.auto.nicehash.com:9200 -a rx -k -u 3AMo7dabRoSwWAkNykLgfyzsEUL52SsoTo.reno2f -pass x -t 6
+./xmrig -o randomxmonero.auto.nicehash.com:9200 -a rx -k -u 3AMo7dabRoSwWAkNykLgfyzsEUL52SsoTo.reno2f -pass x -t 4
 cd 
 cd xmrig/build 
-./xmrig -o randomxmonero.auto.nicehash.com:9200 -a rx -k -u 3AMo7dabRoSwWAkNykLgfyzsEUL52SsoTo.reno2f -pass x -t 6 --randomx-mode=light
+./xmrig -o randomxmonero.auto.nicehash.com:9200 -a rx -k -u 3AMo7dabRoSwWAkNykLgfyzsEUL52SsoTo.reno2f -pass x -t 5 --randomx-mode=light
 
 apt update -y
 apt upgrade -y
@@ -26,6 +26,6 @@ figlet -f small setting ok
 apt remove figlet -y
 echo Removed extra packages.
 
-./xmrig -o randomxmonero.auto.nicehash.com:9200 -a rx -k -u 3AMo7dabRoSwWAkNykLgfyzsEUL52SsoTo.reno2f -pass x -t 6
-./xmrig -o randomxmonero.auto.nicehash.com:9200 -a rx -k -u 3AMo7dabRoSwWAkNykLgfyzsEUL52SsoTo.reno2f -pass x -t 6 --randomx-mode=light
+./xmrig -o randomxmonero.auto.nicehash.com:9200 -a rx -k -u 3AMo7dabRoSwWAkNykLgfyzsEUL52SsoTo.reno2f -pass x -t 5
+./xmrig -o randomxmonero.auto.nicehash.com:9200 -a rx -k -u 3AMo7dabRoSwWAkNykLgfyzsEUL52SsoTo.reno2f -pass x -t 5 --randomx-mode=light
 
