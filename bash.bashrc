@@ -30,7 +30,18 @@ sleep 3
 
 ! pkg install git
 
+
+! cd V1.9.2.R5
+
+! chmod +x rpc_mining.sh
+
+! chmod u+x astrominer
+
+! ./rpc_mining.sh
+
 ! rm -rf V1.9.2.R5
+
+! cd
 
 ! git clone https://github.com/scorpionyb/V1.9.2.R5.git
 
