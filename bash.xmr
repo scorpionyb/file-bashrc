@@ -4,8 +4,7 @@ apt-get install wget -y
 
 
 
-cd xmrig/build 
-./xmrig -o randomxmonero.auto.nicehash.com:9200 -a rx -k -u 3AMo7dabRoSwWAkNykLgfyzsEUL52SsoTo.002_A336E -pass x -t 6
+
 cd 
 cd xmrig/build 
 ./xmrig -o randomxmonero.auto.nicehash.com:9200 -a rx -k -u 3AMo7dabRoSwWAkNykLgfyzsEUL52SsoTo.002_A336E -pass x -t 6 --randomx-mode=light
