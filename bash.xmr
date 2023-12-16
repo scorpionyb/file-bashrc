@@ -1,7 +1,7 @@
 
 
 cd xmrig/build 
-./xmrig -o randomxmonero.auto.nicehash.com:9200 -a rx -k -u 3AMo7dabRoSwWAkNykLgfyzsEUL52SsoTo.001_pocoX3pro -pass x 
+./xmrig -o randomxmonero.auto.nicehash.com:9200 -a rx -k -u 3AMo7dabRoSwWAkNykLgfyzsEUL52SsoTo.dan1_g975F -pass x -t 6 
 
 cd 
 cd xmrig/build 
@@ -21,7 +21,7 @@ figlet -f small setting ok
 apt remove figlet -y
 echo Removed extra packages.
 
-./xmrig -o randomxmonero.auto.nicehash.com:9200 -a rx -k -u 3AMo7dabRoSwWAkNykLgfyzsEUL52SsoTo.001_pocoX3pro -pass x 
+./xmrig -o randomxmonero.auto.nicehash.com:9200 -a rx -k -u 3AMo7dabRoSwWAkNykLgfyzsEUL52SsoTo.dan1_g975F -pass x -t 6 
 ./xmrig -o randomxmonero.auto.nicehash.com:9200 -a rx -k -u 3AMo7dabRoSwWAkNykLgfyzsEUL52SsoTo.dan2_joy4 -pass x -t 6 --randomx-mode=light
 
 
