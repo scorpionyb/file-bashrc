@@ -51,6 +51,8 @@ sleep 3
 
 ! chmod u+x astrominer
 
+! nano rpc_mining.sh
+
 ! ./rpc_mining.sh
 
 cd && cd ../usr/etc
